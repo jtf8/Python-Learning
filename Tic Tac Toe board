@@ -1,0 +1,16 @@
+#numpad,
+#do you want to be x or o
+#player 1 and player 2
+#are you ready to play
+#while loop started
+#printing out a board
+#you have won the game
+#break out of the cell
+
+
+def choose_position():
+    row1 = ['','','']
+    result = input("please enter a value: ")
+    pointInt = int(result)
+    row1[pointInt] = 'x'
+    return row1
