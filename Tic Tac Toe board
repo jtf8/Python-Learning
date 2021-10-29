@@ -6,11 +6,22 @@
 #printing out a board
 #you have won the game
 #break out of the cell
-
+def display(result):
+    pointInt = result
+    row1 = ['0','1','2']
+    row2 = ['3','4','5']
+    row3 = ['6','7','8']
+    row1[pointInt] = 'x'
+    print(row1)
+    print(row2)
+    print(row3)
+    
 
 def choose_position():
-    row1 = ['','','']
-    result = input("please enter a value: ")
-    pointInt = int(result)
-    row1[pointInt] = 'x'
-    return row1
+    count = 0
+    while(count != 9):
+        result = int(input("please enter a value: "))
+        display(result)
+        count = count + 1
+        
+choose_position()
