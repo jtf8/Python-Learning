@@ -1,0 +1,22 @@
+#remove element Leet code #27
+def removeElement(nums,val):
+    nums
+    print(nums)
+    #list integer input array
+    val
+    print(val)
+    
+    #int value to remove
+    expectedNums = []
+    
+    for number in nums:
+        print(number)
+        if number == val:
+            print("match")
+            expectedNums.append(number)
+            nums.remove(number)
+            print("removed")
+    print(expectedNums)
+    
+  
+  removeElement([1,2,3,4,5,5,6],5)
