@@ -1,0 +1,48 @@
+def intro():
+	print("****************************************************")
+	print("*Welcome To Selective Insurance Cyber Security Team*")
+	print("****************************************************")
+
+def inputChoices(UserInput):
+	if UserInput == "1":
+		print("-------------------------------------")
+		print("Linda Johnson or Christopher Soutter")
+		print("-------------------------------------")
+	elif UserInput == "2":
+		print("------------")
+		print("Offshore ECS")
+		print("------------")
+	elif UserInput == "3":
+		print("------------------------------------------------")
+		print("Intern - Joshua Franco, Rest of IT Security Team")
+		print("------------------------------------------------")
+	elif UserInput == "4":
+		print("------------------------------------------------")
+		print("Intern - Joshua Franco, Rest of IT Security Team")
+		print("------------------------------------------------")
+	elif UserInput == "5":
+		print("------------------------------------------------")
+		print("Intern - Joshua Franco, Rest of IT Security Team")
+		print("------------------------------------------------")
+	elif UserInput == "6":
+		print("------------------------------------------------")
+		print("Intern - Joshua Franco, Rest of IT Security Team")
+		print("------------------------------------------------")
+	elif UserInput == "7":
+		print("------------------------------------------------")
+		print("Anthony Turo & Linda Johnson")
+		print("------------------------------------------------")
+	else:
+		print("please select a number")
+
+
+def assignSecurity():
+	intro()
+	UserInput = str(input("please pick the following number to display Security technician(s)\n 1. E-Select \n 2. Automatic Reply \n 3. AD Group Additions \n 4. Shared Mailbox \n 5. Service Accounts \n 6. Synplicity Shares \n 7. Calendar"))
+	inputChoices(UserInput)
+
+assignSecurity()
+
+
+
+
